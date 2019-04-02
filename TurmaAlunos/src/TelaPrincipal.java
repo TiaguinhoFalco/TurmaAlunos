@@ -68,10 +68,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/escola.jpg"))); // NOI18N
 
-        jMenu1.setText("File");
+        jMenu1.setText("Manutenção");
 
         jRadioButtonMenuItem1.setSelected(true);
-        jRadioButtonMenuItem1.setText("ManutençãoAlunos");
+        jRadioButtonMenuItem1.setText("Alunos");
         jRadioButtonMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jRadioButtonMenuItem1ActionPerformed(evt);
@@ -80,7 +80,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenu1.add(jRadioButtonMenuItem1);
 
         jRadioButtonMenuItem2.setSelected(true);
-        jRadioButtonMenuItem2.setText("ManutençãoProvas");
+        jRadioButtonMenuItem2.setText("Provas");
         jRadioButtonMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jRadioButtonMenuItem2ActionPerformed(evt);
@@ -89,7 +89,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenu1.add(jRadioButtonMenuItem2);
 
         jRadioButtonMenuItem3.setSelected(true);
-        jRadioButtonMenuItem3.setText("ManutençãoTurma");
+        jRadioButtonMenuItem3.setText("Turma");
         jRadioButtonMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jRadioButtonMenuItem3ActionPerformed(evt);
@@ -99,7 +99,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
-        jMenu2.setText("Edit");
+        jMenu2.setText("Opções");
 
         jRadioButtonMenuItem4.setSelected(true);
         jRadioButtonMenuItem4.setText("Cancelar");

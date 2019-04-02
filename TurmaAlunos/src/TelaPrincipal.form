@@ -6,13 +6,13 @@
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="jMenu1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="File"/>
+            <Property name="text" type="java.lang.String" value="Manuten&#xe7;&#xe3;o"/>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JRadioButtonMenuItem" name="jRadioButtonMenuItem1">
               <Properties>
                 <Property name="selected" type="boolean" value="true"/>
-                <Property name="text" type="java.lang.String" value="Manuten&#xe7;&#xe3;oAlunos"/>
+                <Property name="text" type="java.lang.String" value="Alunos"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButtonMenuItem1ActionPerformed"/>
@@ -21,7 +21,7 @@
             <MenuItem class="javax.swing.JRadioButtonMenuItem" name="jRadioButtonMenuItem2">
               <Properties>
                 <Property name="selected" type="boolean" value="true"/>
-                <Property name="text" type="java.lang.String" value="Manuten&#xe7;&#xe3;oProvas"/>
+                <Property name="text" type="java.lang.String" value="Provas"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButtonMenuItem2ActionPerformed"/>
@@ -30,7 +30,7 @@
             <MenuItem class="javax.swing.JRadioButtonMenuItem" name="jRadioButtonMenuItem3">
               <Properties>
                 <Property name="selected" type="boolean" value="true"/>
-                <Property name="text" type="java.lang.String" value="Manuten&#xe7;&#xe3;oTurma"/>
+                <Property name="text" type="java.lang.String" value="Turma"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButtonMenuItem3ActionPerformed"/>
@@ -40,7 +40,7 @@
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Edit"/>
+            <Property name="text" type="java.lang.String" value="Op&#xe7;&#xf5;es"/>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JRadioButtonMenuItem" name="jRadioButtonMenuItem4">
